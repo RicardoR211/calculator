@@ -1,0 +1,33 @@
+.results{
+    display: flex;
+    background-color: red;
+    height: 50px;
+    font-size: 30px;
+    border: 10px solid blue;
+}
+
+.results p{
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.calculator{
+    background-color: black;
+    width: 240px;
+}
+
+.buttons{
+    background-color: aqua;
+    padding: 5px;
+}
+
+.clickButton{
+    width: 50px;
+    margin: 2px;
+    height: 50px;
+    border: 5px solid red;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: rgb(74, 74, 238);
+    color: white;
+}
