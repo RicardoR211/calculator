@@ -37,6 +37,7 @@ const sumNumber = document.getElementById('sum')
 const subtract = document.getElementById('subtract')
 const multiplicar = document.getElementById('multiply')
 const divider = document.getElementById('divider');
+const clear = document.getElementById('clear')
 /*
 const debug = document.getElementById("Teste")
 
@@ -51,6 +52,15 @@ var numeroQueEstava = NaN;
 var contaSelecionada = "";
 var resultado = 0;
 var sinal = ""
+
+clear.addEventListener('click', ()=>{
+    panelNumber = 0;
+    numeroQueEstava = NaN;
+    contaSelecionada = "";
+    resultado = 0;
+    sinal = ""
+    panel.textContent = panelNumber
+})
 
 buttonsNumber.forEach((indice) =>{
     indice.addEventListener('click', ()=>{
