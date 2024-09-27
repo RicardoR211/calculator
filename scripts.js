@@ -11,12 +11,12 @@ function addNumber(num){
     if(isNaN(numeroQueEstava)) panel.textContent = panelNumber
     //Tem número na memória
     else if(isNaN(numeroQueEstava) == false && contaSelecionada != ""){
-        console.log("Caiu no else")
+        //console.log("Caiu no else")
         panel.textContent = numeroQueEstava + sinal + panelNumber
-        console.log("----------------------------------------------------------------")
-        console.log(contaSelecionada)
-        console.log("Numero que estava: " + numeroQueEstava)
-        console.log("Numero atual " + panelNumber)
+        //console.log("----------------------------------------------------------------")
+        //console.log(contaSelecionada)
+        //console.log("Numero que estava: " + numeroQueEstava)
+        //console.log("Numero atual " + panelNumber)
     }else if(isNaN(numeroQueEstava) == false && contaSelecionada == ""){
         panelNumber = num;
         numeroQueEstava = NaN;
@@ -40,9 +40,9 @@ const divider = document.getElementById('divider');
 const debug = document.getElementById("Teste")
 
 debug.addEventListener('click', ()=>{
-    console.log(contaSelecionada)
-    console.log("Numero que estava: " + numeroQueEstava)
-    console.log("Numero atual " + panelNumber)
+    //console.log(contaSelecionada)
+    //console.log("Numero que estava: " + numeroQueEstava)
+    //console.log("Numero atual " + panelNumber)
 })
 
 var panelNumber = 0;
@@ -147,7 +147,7 @@ function resolveConta(conta, _numeroQueEstava, _numeroPainel){
         //panelNumber = 0;
         panel.textContent = resultado
     }
-    console.log(conta)
-    console.log("Numero que estava: " + numeroQueEstava)
-    console.log("Numero atual " + panelNumber)
+    //console.log(conta)
+    //console.log("Numero que estava: " + numeroQueEstava)
+    //console.log("Numero atual " + panelNumber)
 }
