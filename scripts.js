@@ -37,6 +37,7 @@ const sumNumber = document.getElementById('sum')
 const subtract = document.getElementById('subtract')
 const multiplicar = document.getElementById('multiply')
 const divider = document.getElementById('divider');
+/*
 const debug = document.getElementById("Teste")
 
 debug.addEventListener('click', ()=>{
@@ -44,7 +45,7 @@ debug.addEventListener('click', ()=>{
     //console.log("Numero que estava: " + numeroQueEstava)
     //console.log("Numero atual " + panelNumber)
 })
-
+*/
 var panelNumber = 0;
 var numeroQueEstava = NaN;
 var contaSelecionada = "";
